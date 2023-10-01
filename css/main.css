@@ -1,0 +1,54 @@
+@import url(header.css);
+@import url(introduce.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    margin: 0 auto;
+    width: 1440px;
+    height: 1024px;
+    /*временно */
+
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+}
